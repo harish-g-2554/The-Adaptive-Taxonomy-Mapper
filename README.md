@@ -21,13 +21,15 @@ This project solves the problem of inconsistent user-generated tags by using AI 
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/yourusername/adaptive-taxonomy-mapper.git
+   git clone https://github.com/harish-g-2554/adaptive-taxonomy-mapper.git
    cd adaptive-taxonomy-mapper
    ```
 
 2. **Install dependencies**
    ```bash
-   pip install groq python-dotenv
+   uv sync
+            (or)
+   pip install -r requirements.txt
    ```
 
 3. **Configure API key**
