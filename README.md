@@ -1,9 +1,3 @@
-# Adaptive Taxonomy Mapper
-
-An AI-powered system that maps user-generated story tags to precise taxonomy categories using Groq's Llama 3.3 70B model.
-
----
-
 ## Overview
 
 This project solves the problem of inconsistent user-generated tags by using AI to understand story context and map content to a predefined taxonomy. The system combines deterministic pattern matching with LLM-powered reasoning for accurate, explainable classifications.
@@ -191,9 +185,3 @@ GROQ_API_KEY=your_key_here
 
 **Harish G**  
 MSc Data Science
-
----
-
-**Made with ❤️ using Groq AI**
-
-
