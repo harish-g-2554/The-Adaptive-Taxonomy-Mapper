@@ -28,7 +28,9 @@ This project solves the problem of inconsistent user-generated tags by using AI 
 2. **Install dependencies**
    ```bash
    uv sync
-            (or)
+   
+   (or)
+   
    pip install -r requirements.txt
    ```
 
