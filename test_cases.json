@@ -1,0 +1,62 @@
+[
+  {
+    "id": 1,
+    "user_tags": ["Love"],
+    "story_snippet": "They hated each other for years, working in the same cubicle, until a late-night deadline changed everything.",
+    "expected_logic": "Should map to Enemies-to-Lovers"
+  },
+  {
+    "id": 2,
+    "user_tags": ["Action", "Spies"],
+    "story_snippet": "Agent Smith must recover the stolen drive without being detected by the Kremlin.",
+    "expected_logic": "Should map to Espionage"
+  },
+  {
+    "id": 3,
+    "user_tags": ["Scary", "House"],
+    "story_snippet": "The old Victorian mansion seemed to breathe, its corridors whispering secrets of the family's dark past.",
+    "expected_logic": "Should map to Gothic Horror"
+  },
+  {
+    "id": 4,
+    "user_tags": ["Love", "Future"],
+    "story_snippet": "A story about a man who falls in love with his AI operating system in a neon-drenched Tokyo.",
+    "expected_logic": "Ambiguous: Could be Cyberpunk or Romance. Look for reasoning."
+  },
+  {
+    "id": 5,
+    "user_tags": ["Action"],
+    "story_snippet": "The lawyer stood before the judge, knowing this cross-examination would decide the fate of the city.",
+    "expected_logic": "Should map to Legal Thriller (Context overrules Tag)."
+  },
+  {
+    "id": 6,
+    "user_tags": ["Space"],
+    "story_snippet": "How to build a telescope in your backyard using basic household items.",
+    "expected_logic": "Unmapped: This is Non-Fiction/Instructional."
+  },
+  {
+    "id": 7,
+    "user_tags": ["Sad", "Love"],
+    "story_snippet": "They met again 20 years after the war, both gray-haired, wondering what could have been.",
+    "expected_logic": "Should map to Second Chance"
+  },
+  {
+    "id": 8,
+    "user_tags": ["Robots"],
+    "story_snippet": "A deep dive into the physics of FTL travel and the metabolic needs of long-term stasis.",
+    "expected_logic": "Should map to Hard Sci-Fi"
+  },
+  {
+    "id": 9,
+    "user_tags": ["Ghost"],
+    "story_snippet": "A masked killer stalks a group of teenagers at a summer camp.",
+    "expected_logic": "Should map to Slasher (Tags can be misleading)."
+  },
+  {
+    "id": 10,
+    "user_tags": ["Recipe", "Sweet"],
+    "story_snippet": "Mix two cups of flour with sugar and bake at 350 degrees.",
+    "expected_logic": "Unmapped."
+  }
+]
