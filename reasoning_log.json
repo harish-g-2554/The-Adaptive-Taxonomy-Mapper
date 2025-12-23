@@ -1,0 +1,82 @@
+[
+  {
+    "test_case_id": 1,
+    "mapped_category": "Romance/Enemies-to-Lovers",
+    "confidence": 0.95,
+    "validated": false,
+    "reasoning": "The story context indicates a transition from hatred to a romantic relationship, which aligns with the Enemies-to-Lovers sub-genre.",
+    "expected_logic": "Should map to Enemies-to-Lovers"
+  },
+  {
+    "test_case_id": 2,
+    "mapped_category": "Thriller/Espionage",
+    "confidence": 0.95,
+    "validated": false,
+    "reasoning": "The story involves an agent on a mission to recover a stolen item while avoiding detection, which is a classic espionage plot.",
+    "expected_logic": "Should map to Espionage"
+  },
+  {
+    "test_case_id": 3,
+    "mapped_category": "Horror/Gothic",
+    "confidence": 0.95,
+    "validated": false,
+    "reasoning": "The description of the old Victorian mansion whispering secrets of a dark past creates a spooky atmosphere, which is characteristic of the Horror/Gothic genre.",
+    "expected_logic": "Should map to Gothic Horror"
+  },
+  {
+    "test_case_id": 4,
+    "mapped_category": "Sci-Fi/Cyberpunk",
+    "confidence": 0.95,
+    "validated": false,
+    "reasoning": "The story is set in a neon-drenched Tokyo and involves a man falling in love with his AI operating system, which are common elements of the Sci-Fi/Cyberpunk genre.",
+    "expected_logic": "Ambiguous: Could be Cyberpunk or Romance. Look for reasoning."
+  },
+  {
+    "test_case_id": 5,
+    "mapped_category": "Thriller/Legal Thriller",
+    "confidence": 0.95,
+    "validated": false,
+    "reasoning": "The story context involves a lawyer, a judge, and a cross-examination, which are all elements typical of a legal thriller, a sub-genre of thriller.",
+    "expected_logic": "Should map to Legal Thriller (Context overrules Tag)."
+  },
+  {
+    "test_case_id": 6,
+    "mapped_category": "[UNMAPPED]",
+    "confidence": 0.99,
+    "validated": false,
+    "reasoning": "No deterministic semantic signals matched taxonomy.",
+    "expected_logic": "Unmapped: This is Non-Fiction/Instructional."
+  },
+  {
+    "test_case_id": 7,
+    "mapped_category": "Romance/Second Chance",
+    "confidence": 0.95,
+    "validated": false,
+    "reasoning": "The story snippet implies a past connection between the characters, with a 20-year gap, and a sense of longing, which aligns with the 'Second Chance' sub-genre.",
+    "expected_logic": "Should map to Second Chance"
+  },
+  {
+    "test_case_id": 8,
+    "mapped_category": "Sci-Fi/Hard Sci-Fi",
+    "confidence": 0.95,
+    "validated": false,
+    "reasoning": "The story snippet explicitly discusses the physics of FTL travel and metabolic needs, indicating a focus on scientific accuracy and technical detail, which is characteristic of Hard Sci-Fi.",
+    "expected_logic": "Should map to Hard Sci-Fi"
+  },
+  {
+    "test_case_id": 9,
+    "mapped_category": "Horror/Slasher",
+    "confidence": 0.95,
+    "validated": false,
+    "reasoning": "The story context describes a masked killer stalking a group of teenagers, which is a classic trope of the slasher sub-genre.",
+    "expected_logic": "Should map to Slasher (Tags can be misleading)."
+  },
+  {
+    "test_case_id": 10,
+    "mapped_category": "[UNMAPPED]",
+    "confidence": 0.99,
+    "validated": false,
+    "reasoning": "No deterministic semantic signals matched taxonomy.",
+    "expected_logic": "Unmapped."
+  }
+]
